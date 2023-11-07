@@ -53,8 +53,8 @@ CREATE TABLE `artists` (
 
 CREATE TABLE `customers` (
   `Customer_id` int(11) NOT NULL,
-  `LastName` varchar(50) DEFAULT NULL,
-  `FirstName` varchar(50) DEFAULT NULL,
+  `Last_Name` varchar(50) DEFAULT NULL,
+  `First_Name` varchar(50) DEFAULT NULL,
   `Company` varchar(50) DEFAULT NULL,
   `Phone` varchar(50) DEFAULT NULL,
   `Email` varchar(50) DEFAULT NULL,
@@ -70,8 +70,8 @@ CREATE TABLE `customers` (
 
 CREATE TABLE `employee` (
   `Employee_id` int(11) NOT NULL,
-  `LastName` varchar(50) DEFAULT NULL,
-  `FirstName` varchar(50) DEFAULT NULL,
+  `Last_Name` varchar(50) DEFAULT NULL,
+  `First_Name` varchar(50) DEFAULT NULL,
   `Title` varchar(50) DEFAULT NULL,
   `ReportsTo` int(11) DEFAULT NULL,
   `BirthDate` date DEFAULT NULL,
