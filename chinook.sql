@@ -42,7 +42,8 @@ CREATE TABLE `albums` (
 CREATE TABLE `artists` (
   `Artist_id` int(11) NOT NULL,
   `Name` varchar(50) DEFAULT NULL,
-  `Location_id` int(11) DEFAULT NULL
+  `Location_id` int(11) DEFAULT NULL,
+  `album_id` int(13) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
